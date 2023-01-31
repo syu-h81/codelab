@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  color: #fff;
+}
+
+.wrap {
+  background: #111;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.st-Title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.st-Sec_title {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+@media (max-width: 760px) {
+  .st-Sec_title {
+    font-size: 30px;
+  }
+}
+
+.st-Link_btn {
+  background-image: linear-gradient(to right, #020083 0%, #020037 51%, #020083 100%);
+  background-size: 200% auto;
+  max-width: 200px;
+  border-radius: 40px;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sp-Line {
+  display: none;
+}
+@media (max-width: 760px) {
+  .sp-Line {
+    display: block;
+  }
+}
+
+@media (max-width: 760px) {
+  .st-News_inner {
+    margin-top: 30px;
+  }
+}
+.st-News_inner .st-News_list {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+@media (max-width: 760px) {
+  .st-News_inner .st-News_list {
+    display: block;
+    padding-bottom: 40px;
+  }
+}
+.st-News_inner .st-News_list .st-News_item {
+  display: flex;
+}
+.st-News_inner .st-News_list .st-News_item .st-News_time {
+  font-size: 15px;
+}
+.st-News_inner .st-News_list .st-News_item .st-News_label {
+  background: #E8E8E8;
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin: 0 12px;
+  width: 80px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+@media (max-width: 760px) {
+  .st-News_inner .st-News_list .st-News_item .st-News_label {
+    font-weight: normal;
+    font-size: 11px;
+  }
+}
+@media (max-width: 760px) {
+  .st-News_inner .st-News_list .st-News_text {
+    text-align: justify;
+    margin-top: 10px;
+  }
+}
+
+.st-Contact_block {
+  background: #F7F7F7;
+  padding: 70px 0;
+  margin: 0 auto;
+}
+.st-Contact_block .st-Contact_container .st-Contact_heading .st-Contact_title {
+  color: #020083;
+}
+.st-Contact_block .st-Contact_container .st-Contact_heading .st-Contact_title::after {
+  content: "お問い合わせ";
+  font-size: 13px;
+  font-weight: normal;
+  display: block;
+  padding-top: 8px;
+}
+.st-Contact_block .st-Contact_container .st-Contact_heading .st-Contact_text {
+  font-family: "Montserrat", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.8;
+  color: #333;
+  letter-spacing: 0.05em;
+  font-size: 0.9375rem;
+  padding: 40px 0;
+}
+@media (max-width: 760px) {
+  .st-Contact_block .st-Contact_container .st-Contact_heading .st-Contact_text {
+    padding: 30px 0;
+  }
+}/*# sourceMappingURL=common.css.map */
