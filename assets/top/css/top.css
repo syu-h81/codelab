@@ -40,7 +40,7 @@
 }
 .top-Hero_block .top-Hero_container .top-Hero_heading_inner .top-Hero_heading .top-Hero_subtitle {
   padding-top: 6%;
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: 2px;
 }
 @media (max-width: 760px) {
@@ -61,7 +61,6 @@
   font-size: 12px;
   display: block;
   height: 50px;
-  position: relative;
 }
 @media (max-width: 760px) {
   .top-Hero_block .top-Hero_container .top-Hero_scroll {
@@ -77,7 +76,7 @@
   width: 1.2px;
   height: 30px;
   background: #fff;
-  margin-top: 16%;
+  margin-top: 80vh;
   content: "";
   animation: scrollDownLine 1.5s ease-in-out infinite;
 }
@@ -245,7 +244,6 @@
   }
 }
 .main .top-Service_block .top-Service_container .top-Service_area .top-Service_content {
-  max-width: 350px;
   margin-right: 30px;
 }
 @media (max-width: 760px) {
@@ -257,9 +255,12 @@
   margin-right: 0;
 }
 .main .top-Service_block .top-Service_container .top-Service_area .top-Service_content img {
-  width: 100%;
   height: auto;
-  max-height: 174px;
+}
+@media (max-width: 760px) {
+  .main .top-Service_block .top-Service_container .top-Service_area .top-Service_content img {
+    width: 100%;
+  }
 }
 .main .top-Service_block .top-Service_container .top-Service_area .top-Service_content .top-Service_name {
   font-size: 18px;
@@ -365,19 +366,7 @@
   font-size: 0.9375rem;
 }
 .main .top-Company_block {
-  max-width: 1300px;
-  background-image: url(../../assets/images/bg_company.png);
-  background-size: cover;
-  background-position: center center, center center;
   margin-bottom: 8%;
-}
-@media (max-width: 760px) {
-  .main .top-Company_block {
-    background-image: url(../../assets/images/sp_bg-circle.png);
-    background-position: bottom;
-    background-size: 375px;
-    margin-bottom: 80px;
-  }
 }
 .main .top-Company_block .top-Company_container .top-Company_heading {
   margin-bottom: 2%;
@@ -403,7 +392,6 @@
   background: linear-gradient(transparent 70%, #020083 0%);
 }
 .main .top-Company_block .top-Company_container .top-Company_text_area {
-  max-width: 450px;
   margin: 0 auto;
   margin-bottom: 40px;
   letter-spacing: 1px;
